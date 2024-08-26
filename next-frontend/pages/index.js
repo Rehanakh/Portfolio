@@ -170,8 +170,8 @@ export default function Home({ blogs, profile}) {
                 {/* Hello I'm {profile.name}! */}
                 Hello I&apos;m Rehana Khan! 
               </h1>
-              <p className="font-body text-center capitalize text-white">Cross-Platform Web & Mobile Appication<br></br>
-SQL Server, Angular, RESTful API, ASP.NET Core Web API</p>
+              <p className="font-body text-center capitalize text-white"> Big Data & .NET Specialist | Software Developer<br></br>
+              Expert in Cloud Technologies, SQL Server, ASP.NET Core, and Web APIs</p>
               <div className="flex flex-col justify-center pt-3 sm:flex-row sm:pt-5 lg:justify-start">
                 <div className="flex items-center justify-center pl-0 sm:justify-start md:pl-1">
                   <p className="font-body text-lg uppercase text-white">Let&apos;s connect</p>
@@ -207,16 +207,25 @@ SQL Server, Angular, RESTful API, ASP.NET Core Web API</p>
               Who am I?
             </h2>
             <h4 className="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-              I&apos;m Rehana Khan, a Software and Database Developer
+              I&apos;m Rehana Khan, a Software and Big Data Engineer with a strong background in .NET development and data engineering.
             </h4>
             <p className="pt-6 font-body leading-relaxed text-grey-20">
-            ●	A software developer with around 5 years of work experience in IT in Research and Development and Database. I started my career in Design and Development of ASP.NET Software Applications,MVC, analysis and testing. For the last 3 years, I have been working as a software developer (R&D) in developing and maintaining a cloud-based enterprise association software.<br></br>
-●	Worked in developing Windows based and web based applications using NET technologies such as C#, VB.NET, ASP.NET, ADO .NET, win forms, Server controls, web services, NET Framework, HTML/XHTML, CSS and IIS.<br></br>
-●	Experience in SQL Server Database design developing T-SQL queries, function, stored procedures, and triggers using SQL Server and used Data Adapter, Dataset, Data Connection, Data Command, Data reader as a part of ADO NET to access and update database in ASPNet environment.<br></br>
-●	Proficient in Agile methodology and experienced in collaborating on projects using GitHub.<br></br>
-●	Designed and implemented clean, maintainable code, emphasizing simplicity and efficient problem-solving.<br></br>
-●	Effectively communicated technical concepts to both technical and non-technical stakeholders.<br></br>
-●	Collaborated with team members to ensure technical solutions were developed and integrated efficiently.<br></br>
+●	Technical Expertise: Proficient in .NET Core, ASP.NET Core, and MVC frameworks, with hands-on experience in cloud technologies like Microsoft Azure and CI/CD pipelines using Azure DevOps, Jenkins, and GitHub.
+            <br></br>
+●	 Full-Stack and Mobile Development: Skilled in C#, ASP.NET, React, and mobile web technologies. Built and maintained responsive web and mobile applications, integrating data processing capabilities for enhanced user experiences.
+<br></br>
+●  Database and Data Engineering: Extensive experience with SQL Server, MySQL, and NoSQL databases (MongoDB). Designed and optimized data models, and developed scalable ETL pipelines using Python, Apache Kafka, and PySpark for data transformation and integration.
+<br></br>
+●	 Cloud and DevOps: Applied Azure services including Azure Data Factory, Azure Synapse Analytics, and Azure Kubernetes Service (AKS) to build, deploy, and optimize cloud-based solutions.
+<br></br>
+●	 API Development and Integration: Developed and secured RESTful APIs and WCF services, ensuring efficient integration and data protection. Integrated data pipelines with .NET applications to streamline data processing and business logic.
+<br></br>
+●	 ETL and BI Solutions: Designed and automated ETL processes to manage data flows, utilizing tools like Hadoop, Hive, and Spark. Created interactive dashboards and visualizations with Tableau to support data-driven decision-making.
+<br></br>
+●	 Agile and Leadership: Led Agile teams to deliver cloud-based and data-driven solutions, mentored team members, and collaborated with stakeholders to ensure successful project outcomes.
+<br></br>
+●  Software Principles and Methodologies: Strong understanding of OOP, SOLID principles, design patterns, and Agile methodologies. Applied these principles to develop maintainable and scalable software solutions.
+<br></br>
 
             </p>
             {/* <div className="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start">
@@ -253,63 +262,99 @@ SQL Server, Angular, RESTful API, ASP.NET Core Web API</p>
                 <h4 className="font-body font-semibold uppercase text-black">
                   HTML & CSS
                 </h4>
-                <h3 className="font-body text-3xl font-bold text-primary">85%</h3>
+                <h3 className="font-body text-1xl font-bold text-primary">85%</h3>
               </div>
               <div className="mt-2 h-3 w-full rounded-full bg-lila">
                 <div className="h-3 rounded-full bg-primary" style={{"width": "85%"}}></div>
               </div>
             </div>
-            <div className="pt-6">
+            <div className="pt-4">
               <div className="flex items-end justify-between">
                 <h4 className="font-body font-semibold uppercase text-black">Javascript</h4>
-                <h3 className="font-body text-3xl font-bold text-primary">80%</h3>
+                <h3 className="font-body text-1xl font-bold text-primary">80%</h3>
               </div>
               <div className="mt-2 h-3 w-full rounded-full bg-lila">
                 <div className="h-3 rounded-full bg-primary" style={{ "width": "70%" }}></div>
               </div>
             </div>
-            <div className="pt-6">
+            <div className="pt-4">
               <div className="flex items-end justify-between">
                 <h4 className="font-body font-semibold uppercase text-black">
                 C#
                 </h4>
-                <h3 className="font-body text-3xl font-bold text-primary">98%</h3>
+                <h3 className="font-body text-1xl font-bold text-primary">98%</h3>
               </div>
               <div className="mt-2 h-3 w-full rounded-full bg-lila">
                 <div className="h-3 rounded-full bg-primary" style={{"width": "98%"}}></div>
               </div>
             </div>
-            <div className="pt-6">
+            <div className="pt-4">
               <div className="flex items-end justify-between">
-                <h4 className="font-body font-semibold uppercase text-black">ASP.NET</h4>
-                <h3 className="font-body text-3xl font-bold text-primary">91%</h3>
+                <h4 className="font-body font-semibold uppercase text-black">ASP.NET Core</h4>
+                <h3 className="font-body text-1xl font-bold text-primary">91%</h3>
               </div>
               <div className="mt-2 h-3 w-full rounded-full bg-lila">
                 <div className="h-3 rounded-full bg-primary" style={{ "width": "91%" }}></div>
               </div>
             </div>
-            <div className="pt-6">
+            <div className="pt-4">
               <div className="flex items-end justify-between">
                 <h4 className="font-body font-semibold uppercase text-black">MVC</h4>
-                <h3 className="font-body text-3xl font-bold text-primary">90%</h3>
+                <h3 className="font-body text-1xl font-bold text-primary">90%</h3>
               </div>
               <div className="mt-2 h-3 w-full rounded-full bg-lila">
                 <div className="h-3 rounded-full bg-primary" style={{ "width": "91%" }}></div>
               </div>
             </div>
-            <div className="pt-6">
+            <div className="pt-4">
+              <div className="flex items-end justify-between">
+                <h4 className="font-body font-semibold uppercase text-black">Python</h4>
+                <h3 className="font-body text-1xl font-bold text-primary">80%</h3>
+              </div>
+              <div className="mt-2 h-3 w-full rounded-full bg-lila">
+                <div className="h-3 rounded-full bg-primary" style={{ "width": "91%" }}></div>
+              </div>
+            </div>
+            <div className="pt-4">
               <div className="flex items-end justify-between">
                 <h4 className="font-body font-semibold uppercase text-black">SQL SERVER, MYSQL, ORACLE</h4>
-                <h3 className="font-body text-3xl font-bold text-primary">90%</h3>
+                <h3 className="font-body text-1xl font-bold text-primary">90%</h3>
               </div>
               <div className="mt-2 h-3 w-full rounded-full bg-lila">
                 <div className="h-3 rounded-full bg-primary" style={{ "width": "91%" }}></div>
               </div>
             </div>
-            <div className="pt-6">
+            <div className="pt-4">
+              <div className="flex items-end justify-between">
+                <h4 className="font-body font-semibold uppercase text-black">Microsoft Azure</h4>
+                <h3 className="font-body text-1xl font-bold text-primary">85%</h3>
+              </div>
+              <div className="mt-2 h-3 w-full rounded-full bg-lila">
+                <div className="h-3 rounded-full bg-primary" style={{ "width": "91%" }}></div>
+              </div>
+            </div>
+            <div className="pt-4">
+              <div className="flex items-end justify-between">
+                <h4 className="font-body font-semibold uppercase text-black">RESTful APIs</h4>
+                <h3 className="font-body text-1xl font-bold text-primary">90%</h3>
+              </div>
+              <div className="mt-2 h-3 w-full rounded-full bg-lila">
+                <div className="h-3 rounded-full bg-primary" style={{ "width": "91%" }}></div>
+              </div>
+            </div>
+            <div className="pt-4">
+              <div className="flex items-end justify-between">
+                <h4 className="font-body font-semibold uppercase text-black">DevOps Practices</h4>
+                <h3 className="font-body text-1xl font-bold text-primary">80%</h3>
+              </div>
+              <div className="mt-2 h-3 w-full rounded-full bg-lila">
+                <div className="h-3 rounded-full bg-primary" style={{ "width": "91%" }}></div>
+              </div>
+            </div>
+            <div className="pt-4">
               <div className="flex items-end justify-between">
                 <h4 className="font-body font-semibold uppercase text-black">Agile methodology</h4>
-                <h3 className="font-body text-3xl font-bold text-primary">90%</h3>
+                <h3 className="font-body text-1xl font-bold text-primary">90%</h3>
               </div>
               <div className="mt-2 h-3 w-full rounded-full bg-lila">
                 <div className="h-3 rounded-full bg-primary" style={{ "width": "91%" }}></div>
@@ -356,10 +401,12 @@ SQL Server, Angular, RESTful API, ASP.NET Core Web API</p>
                 WEB DEVELOPMENT
               </h3>
               <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                Front-end development, Back-end Development.
+                Front-end development(React, JavaScript)<br></br> Back-end Development( C#, Pthon, RESTful APIs)<br></br> Cloud Integration, DevOps Practices
+                <br></br> CI/CD and Microservices.
               </p>
             </div>
           </div>
+
           <div className="group rounded px-8 py-12 shadow hover:bg-primary">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block">
@@ -385,33 +432,15 @@ SQL Server, Angular, RESTful API, ASP.NET Core Web API</p>
             </div>
             <div className="text-center">
               <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
-              Data Tier
+              Data Engineering
               </h3>
               <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-              Microsoft SQL Server, Microsoft Azure, MySQL Server.
+              Microsoft SQL Server, MySQL Server, NoSQL Databases, Apache Kafka, Apache Spark, Hadoop, ETL Processes, Data Integration, Real-time Streaming, Microsoft Azure Data Services
+
               </p>
             </div>
           </div>
-          <div className="group rounded px-8 py-12 shadow hover:bg-primary">
-            <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-              <div className="hidden group-hover:block">
-                {/* <img src="/assets/img/icon-mobile-white.svg" alt="Mobile Application icon" /> */}
-                <Image src="/assets/img/icon-mobile-white.svg" alt="Mobile Application icon" width={100}  height={100} layout="fixed" />
-              </div>
-              <div className="block group-hover:hidden">
-              <Image src="/assets/img/icon-mobile-black.svg" alt="Mobile Application icon" width={100}  height={100} layout="fixed"  />
-                {/* <img src="/assets/img/icon-mobile-black.svg" alt="Mobile Application icon" /> */}
-              </div>
-            </div>
-            <div className="text-center">
-              <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
-                Mobile Development
-              </h3>
-              <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              </p>
-            </div>
-          </div>
+      
           <div className="group rounded px-8 py-12 shadow hover:bg-primary">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block">
@@ -430,10 +459,12 @@ SQL Server, Angular, RESTful API, ASP.NET Core Web API</p>
               Application Tier
               </h3>
               <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-              ASP.NET Core RESTful API<br></br>C# ASP.NET Core MVC<br></br>Entity Framework Code/Data First.
+              ASP.NET Core, RESTful API<br></br>.NET MVC<br></br>Entity Framework
               </p>
             </div>
           </div>
+
+
           <div className="group rounded px-8 py-12 shadow hover:bg-primary">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block">
@@ -455,6 +486,8 @@ SQL Server, Angular, RESTful API, ASP.NET Core Web API</p>
               </p>
             </div>
           </div>
+
+
           <div className="group rounded px-8 py-12 shadow hover:bg-primary">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block">
@@ -471,10 +504,32 @@ SQL Server, Angular, RESTful API, ASP.NET Core Web API</p>
                 Web Design
               </h3>
               <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              HTML, CSS, Bootstrap
               </p>
             </div>
           </div>
+
+      
+          <div className="group rounded px-8 py-12 shadow hover:bg-primary">
+            <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
+              <div className="hidden group-hover:block">
+              <Image src="/assets/img/icon-development-white.svg" alt="development icon" width={100}  height={100} layout="fixed" />
+              </div>
+              <div className="block group-hover:hidden">
+              <Image   src="/assets/img/icon-development-black.svg" alt="development icon" width={100}  height={100} layout="fixed" />
+              </div>
+            </div>
+            <div className="text-center">
+              <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
+                Others
+              </h3>
+              <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+              Database Design, Query Optimization, Transactional SQL<br></br> Microsoft Azure, Azure Kubernetes Service (AKS)<br></br> Azure DevOps, Jenkins, CI/CD Pipelines
+              </p>
+            </div>
+          </div>
+
+
         </div>
       </div>
 
@@ -668,10 +723,15 @@ Integrated with external APIs </p>
                     <span className="block font-body font-bold text-grey-40">April 2017 - February 2019</span>
                     <span className="block pt-2 font-header text-xl font-bold uppercase text-primary">Assistant Programmer</span>
                     <div className="pt-2">
-                      <span className="block font-body text-black">a. Client Site(Project): State Civil Supplies Corporation Ltd, M.P.	
-A completely online solution  which involves transportation by transporter of commodities like foodgrains, wheat, rice, coarse grains from Godown to societies.
-<br></br><br></br>b. Client Site (Project): RKVY (Rashtriya Krishi Vikas Yojna) It is a web-based Online Monitoring System to allow the user to maintain the financial and statistics data and allotment of the different schemes under the Rashtriya Krishi Vikas Yojna (RKVY).
-</span>
+                      <span className="block font-body text-black">a. Client Site(Project): State Civil Supplies Corporation Ltd, M.P.
+                        <br></br>
+                        1.National Digital Health Mission (NDHM) Gateway<br></br>
+                        Built an online solution using Big Data to aggregate and analyze health records, service data, and insurance claims nationwide.
+                         The platform delivers real-time insights for policy-making, improves health interventions, and enhances resource allocation, driving efficiency and accessibility in national healthcare services.
+                        <br></br><br></br>
+                         2.Financial Insights and Risk Management Platform<br></br>
+                         A comprehensive digital platform designed to aggregate and analyze financial transactions, market data, and investment portfolios from various financial institutions. 
+                         This platform aims to enhance financial decision-making, optimize investment strategies, and improve risk assessment. The system integrates real-time data processing with predictive analytics to detect fraud, ensure regulatory compliance, and provide actionable insights for strategic financial planning.</span>
                     </div>
                   </div>
                 </div>
@@ -701,10 +761,11 @@ A completely online solution  which involves transportation by transporter of co
                     <span className="block font-body font-bold text-grey-40">July 2015 - March 2017</span>
                     <span className="block pt-2 font-header text-xl font-bold uppercase text-primary">Junior Database Developer</span>
                     <div className="pt-2">
-                      <span className="block font-body text-black">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit.
-                        Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
-                        venenatis enim.</span>
+                      <span className="block font-body text-black"> Unified Financial Data Integration System
+                        <br></br>
+                        The project significantly improved the accuracy and efficiency of financial data integration and reporting. 
+                        By centralizing data from various sources, the system facilitated better decision-making and operational effectiveness, supporting the organization’s financial management and reporting needs.
+</span>
                     </div>
                   </div>
                 </div>
